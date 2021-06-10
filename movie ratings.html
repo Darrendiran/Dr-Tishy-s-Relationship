@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Movie ratings</title>
+  </head>
+  <body>
+    <h3><em>The movie watched by Dr-Tishy</em></h3>
+      <p>These are the movies watched by Dr-Tishy on <a href="https://www.netflix.com/browse">Netflix</a>
+      ranging from romantic, horror, inspirational and action (action movies are one of Dr-Tishy's
+      favourite movie genre). The ratings are based on &#128525; emoji ranging from one to the maximum of
+      five emojis.</p>
+
+        <table cellspacing="25">
+          <thead>
+            <tr>
+              <th> </th> <th> </th>
+            </tr>
+          </thead>
+
+          <tbody align="left" valign="center">
+            <tr>
+              <td>Unbroken &#128525; &#128525; &#128525; &#128525; &#128525;</td>
+              <td>Scent of a Women &#128525; &#128525; &#128525; &#128525;</td>
+            </tr>
+            <tr>
+              <td>Changeling &#128525; &#128525; &#128525; &#128525; </td>
+              <td>Catch Me If You Can &#128525; &#128525; &#128525; &#128525;</td>
+            </tr>
+            <tr>
+              <td>I care a lot &#128525; &#128525;</td>
+              <td>Baby driver &#128525; &#128525; &#128525;</td>
+            </tr>
+            <tr>
+              <td>Hitman's Bodyguard &#128525; &#128525; &#128525;</td>
+              <td>Definitely, Maybe &#128525; &#128525; &#128525; &#128525;</td>
+            </tr>
+            <tr>
+              <td> Lupin &#128525; &#128525; &#128525; &#128525; &#128525;</td>
+            </tr>
+          </tbody>
+        </table>
+
+    <hr size="2" noshade>
+    <h3>Tell Dr-Tishy something</h3>
+    <p>Please do fill up this form so Dr-Tishy can look through and definitely, Maybe
+    watch the movie that you suggested.</p>
+        <form class="Movie genre" action="movie ratings.html" method="post">
+          <div>
+            <label>Which movie genres here are your favourite ?</label><br>
+                <input type="checkbox" name="" value="">
+              <label>Comedy</label><br>
+                <input type="checkbox" name="" value="">
+              <label>Romance</label><br>
+                <input type="checkbox" name="" value="">
+              <label>Horror</label><br>
+                <input type="checkbox" name="" value="">
+              <label>Action</label><br>
+          </div>
+          <div><br>
+            <label>Would you like to suggest Dr-Tishy a movie?</label><br>
+              <!--div this divides yes & no, the no will be in the next row-->
+                  <input type="radio" id="" name="suggestion" value="">
+                <label for="Yes">Yes</label>
+              <!--/div-->
+              <!--div--> <!--the name of both radio type inputs have to be the
+              same so that only one choice will be made. -->
+                  <input type="radio" id="" name="suggestion" value="">
+                <label for="No">No</label>
+              <!--/div-->
+          </div><br>
+          <div>
+            <label>If Yes, What is the name of the movie?</label><br>
+              <input type="text" name="comments" value="">
+              <input type="submit" name="" value="send">
+          </div>
+          <div><br>
+            <label>How likely will you watch the movie rated by Dr-Tishy?</label><br>
+                  <input type="range" name="" value="" min="0" max="100">
+                <label>Most likely</label>
+          </div>
+        </form>
+
+
+
+
+  </body>
+</html>
